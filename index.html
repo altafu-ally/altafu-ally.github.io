@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altafu Ally | Software Engineer Portfolio</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e74c3c;
+            --bg: #f4f6f9;
+            --text: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; box-sizing: border-box; }
+        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; border-radius: 0 0 12px 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        header h1 { margin: 0; font-size: 2.2rem; }
+        header p { margin: 10px 0 0 0; opacity: 0.9; font-size: 1.1rem; }
+        .contact-info { margin-top: 20px; font-size: 0.95rem; }
+        .contact-info a { color: #fff; text-decoration: underline; margin: 0 10px; }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 8px; margin-top: 40px; }
+        .card { background: white; padding: 25px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 5px solid var(--accent); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-3px); }
+        .card h3 { margin-top: 0; color: var(--primary); font-size: 1.4rem; }
+        .badge { display: inline-block; background: #e1e8ed; color: #2c3e50; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; margin-right: 5px; margin-bottom: 10px; }
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9rem; margin-top: 15px; }
+        .btn:hover { background: #1a252f; }
+        .skills-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+        .skills-list li { background: #34495e; color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; }
+        footer { text-align: center; margin-top: 60px; padding: 20px; font-size: 0.85rem; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Altafu Ally</h1>
+            <p>Full-Stack Software Engineer & IoT Solutions Developer</p>
+            <div class="contact-info">
+                📧 <a href="mailto:Altafuakalama@gmail.com">Altafuakalama@gmail.com</a> | 
+                📞 <a href="tel:+255683218814">+255 683 218 814</a>
+                <br><br>
+                💻 <a href="https://github.com" target="_blank">://github.com</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <h2>🚀 Technical Core Competencies</h2>
+        <ul class="skills-list">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>Node.js (Express)</li>
+            <li>MySQL / MariaDB</li>
+            <li>SQLite3</li>
+            <li>USSD Webhook Protocols</li>
+            <li>IoT Telemetry Systems</li>
+            <li>API & Web Security Hardening</li>
+        </ul>
+
+        <h2>📁 Highlighted Engineering Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="card">
+            <h3>🏥 Smart Hospital ICU Ward Sentinel & Analytics</h3>
+            <span class="badge">Python</span>
+            <span class="badge">Flask</span>
+            <span class="badge">SQLite3</span>
+            <span class="badge">IoT Security</span>
+            <p>An enterprise-modeled critical care health suite that processes real-time serialized JSON patient vital metrics stream telemetry. Features multi-user role authentication access locks, auto-triage logic indicators for low oxygen boundaries, and shift summary data aggregation modules.</p>
+            <a href="https://github.com/smart-hospital-icu-monitor-python" target="_blank" class="btn">View Source Code ➔</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+            <h3>📱 USSD Health Information System & Outbreak Sentinel</h3>
+            <span class="badge">Node.js</span>
+            <span class="badge">Express</span>
+            <span class="badge">SQLite3</span>
+            <span class="badge">Africa's Talking API</span>
+            <p>A production-ready public digital health assistant endpoint webhook handling text menu routing maps dynamically over stateless arrays. Built-in security layers feature cryptographic SHA-256 data phone masking, volumetric DoS rate limiting, and an asynchronous outbreak trigger alerting supervisors via SMS automation tools.</p>
+            <a href="https://github.com/ussd-health-information-system" target="_blank" class="btn">View Source Code ➔</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card">
+            <h3>📊 Sales and Inventory Management System</h3>
+            <span class="badge">PHP</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Data Integrity</span>
+            <span class="badge">Secure PDO</span>
+            <p>A business logistics tracking tool protecting transaction ledgers against negative imbalances using strict server-side PHP parsing boundaries. Hardened against injection exploits using parameterized PDO expressions, including multi-role administrative permission gates to safeguard data synchronization states.</p>
+            <a href="https://github.com/sales-and-inventory-management-system" target="_blank" class="btn">View Source Code ➔</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Altafu Ally. Built securely with clean semantic HTML & CSS layout frameworks.</p>
+    </footer>
+
+</body>
+</html>
